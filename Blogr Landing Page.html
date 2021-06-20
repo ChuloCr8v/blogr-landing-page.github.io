@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+      <title>Blogr Landing Page</title>
+   </head>
+   <body class="body bg-gray-200">
+     
+      <!-- MOBILE MENU -->
+     
+      <div class="relative ">
+         <div class="mobile-menu-active shadow-2xl rounded-2xl absolute top-20 bg-white w-5/6 py-10 px-20">
+            <ol class="space-y-6 relative flex flex-col justify-center items-center">
+              
+              <!--  PRODUCT MOBILE MENU  --> 
+               <li class="flex flex-col items-center text-center space-y-4">
+                  <div class="product-menu-mobile  transform p-2 relative duration-500 hover:scale-110 flex justify-between space-x-4 items-center">
+                     <p class="text-2xl text-gray-700 hover:text-red-500" >Product</p>
+                     <img src="img/icon-arrow-dark.svg" alt="" class="product-arrow-icon-mobile w-4 ">
+                  </div>
+                  
+                  <!-- PRODUCT MOBILE SUB-MENU --> 
+                  <div class="product-sub-menu-mobile bg-gray-200 bg-white p-8  rounded transform -translate-y-4 text-gray-800 w-72">
+                     <ol class="space-y-2">
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Overview</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Pricing</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Marketplace</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Features</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Integration</li>
+                     </ol>
+                  </div>
+               </li>
+               
+               <!--  COMPANY MOBILE SUB-MEU--> 
+               <li class="flex flex-col justify-center items-center items-center ">
+                  <div class="company-mobile-menu transform p-2 relative duration-500 hover:scale-110 flex justify-between space-x-4 items-center">
+                     <p class="text-2xl text-gray-700 hover:text-red-500 ">Company</p>
+                     <img src="img/icon-arrow-dark.svg" alt="" class="company-arrow-icon-mobile w-4 ">
+                  </div>
+                  <div class="company-sub-menu-mobile bg-gray-200 p-8  rounded transform flex flex-col justify-center items-center text-gray-800 text-center w-72">
+                     <ol class="space-y-2">
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">About</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Team</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Blog</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Careers</li>
+                     </ol>
+                  </div>
+               </li>
+               
+               <!-- CONNECT MOBILE SUB-MEU --> 
+               <li class="flex flex-col justify-center items-center items-center ">
+                  <div class="connect-menu-mobile transform p-2 relative duration-500 hover:text-red-500 hover:scale-110 flex justify-between space-x-4 items-center">
+                     <p class="text-2xl text-gray-700 hover:text-red-500" >Connect</p>
+                     <img src="img/icon-arrow-dark.svg" alt="" class="connect-arrow-icon-mobile w-4 ">
+                  </div>
+                  <div class="connect-sub-menu-mobile bg-gray-200 p-8  rounded transform flex flex-col justify-center items-center text-gray-800 text-center w-72">
+                     <ol class="space-y-2">
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Contact</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Newsletter</li>
+                        <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">LinkedIn</li>
+                     </ol>
+                  </div>
+               </li>
+            </ol>
+            
+            <!-- MOBILE SIGNUP AND LOGIN BUTTONS--> 
+            <div class="login-sign-up space-y-4 flex flex-col justify-center items-center relative mt-20 z-20">
+               <button class="login text-2xl text-gray-700 px-8 py-3 transform duration-500 focus:outline-none hover:bg-red-400 hover:text-white rounded-full ">Login</button>
+               <button class="signup bg-gradient-to-r from-red-400 to-red-500 text-white transform focus:outline-none hover:bg-red-400  text-2xl rounded-full px-8 py-3">Signup</button>
+            </div>
+         </div>
+      </div>
+      
+      <!--  SECTION ONE --> 
+      <div class="section-one-container relative bg-gradient-to-r from-red-400 to-red-500 py-10 px-8 md:px-20 items-center justify-center text-white overflow-hidden">
+         <header class="flex justify-between items-center relative space-x-10 z-20 ">
+            <div class="logo-nav flex space-x-12">
+               <div class="logo">
+                  <img src="img/logo.svg" alt="blogr-logo" class="">
+               </div>
+               <div class="nav-and-login-container flex justify-between items-center space-x-10">
+                  <nav class="nav">
+                     <ol class="hidden menu md:flex justify-center items-center space-x-6">
+                        <li class="">
+                           <a href="#" class="product-menu transform p-2 duration-500 focus:scale-110 focus:outline-none flex justify-center items-center space-x-3">
+                              <p class="">Product</p>
+                              <img src="img/icon-arrow-light.svg" class="product-arrow-icon-desktop w-4" alt="">
+                           </a>
+                           <div class="product-sub-menu bg-white pl-8 py-8 rounded text-gray-500 absolute">
+                              <ol class="space-y-2">
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Overview</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Pricing</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Marketplace</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Features</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Integration</li>
+                              </ol>
+                           </div>
+                        </li>
+                        <li>
+                           <a href="#" class="company-menu transform p-2 duration-500 focus:scale-110 focus:outline-none flex justify-center items-center space-x-3">
+                              <p class="">
+                              <p>Company</p>
+                              <img src="img/icon-arrow-light.svg" class="company-icon w-4" alt="">
+                           </a>
+                           <div class="company-sub-menu bg-white pl-8 py-8 rounded text-gray-500 absolute">
+                              <ol class="space-y-2">
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">About</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Team</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Blog </li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Careers </li>
+                              </ol>
+                           </div>
+                        </li>
+                        <li class="">
+                           <a href="#" class="connect-menu transform p-2 duration-500 focus:scale-110 focus:outline-none flex justify-center items-center space-x-3">
+                              <p class="">
+                              <p>Connect</p>
+                              <img src="img/icon-arrow-light.svg" class="connect-icon w-4" alt="">
+                           </a>
+                           <div class="connect-sub-menu bg-white pl-8 py-8 rounded text-gray-500 absolute">
+                              <ol class="space-y-2">
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Contact</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">Newsletter</li>
+                                 <li class="transform duration-300 hover:text-black hover:font-bold hover:scale-110">LinkedIn </li>
+                              </ol>
+                           </div>
+                        </li>
+                     </ol>
+                  </nav>
+               </div>
+            </div>
+            <img src="img/icon-hamburger.svg" alt="" class="hamburger-icon md:hidden relative z-100 transform hover:scale-150 duration-500 ">
+            <img src="img/icon-close.svg" alt="" class="icon-close hidden">
+            <div class="login-sign-up md:block hidden space-x-4 relative z-20">
+               <button class="login transform duration-300 hover:bg-opacity-30 hover:bg-white rounded-2xl font-bold px-6 py-2">Login</button>
+               <button class="signup bg-white text-red-500 transform duration-300 hover:bg-opacity-30 hover:text-white font-bold rounded-2xl px-6 py-2">Signup</button>
+            </div>
+         </header>
+         <div class="title space-y-4 relative z-10">
+            <h1 class="text-center text-4xl font-bold mt-20">A modern publishing platform</h1>
+            <p class="text-sm text-center">Grow your audience and build your online brand</p>
+         </div>
+         <div class="button-container relative z-10 pb-36 space-x-6 mt-8 flex justify-center items-center">
+            <button class="bg-white rounded-2xl px-6 py-2 focus:outline-none  focus:shadow-outline transform duration-300 hover:bg-opacity-30 hover:text-white text-red-500 font-bold">Start for free</button>
+            <button class="rounded-2xl px-6 py-2 font-bold transform duration-500 hover:bg-white hover:text-red-600">Learn more</button>
+         </div>
+         <div class="bg-shapes z-0">
+            <div class="rounded-angle absolute md:-right-48 -right-60 md:-bottom-60 -bottom-80 bg-red-400 opacity-30 w-96 h-96 -z-10">
+            </div>
+            <div class="rounded-angle absolute md:-right-80 -right-8 bottom-52 bg-red-400 opacity-30 w-96 h-96 -z-10">
+            </div>
+            <div class="rounded-angle md:block hidden absolute right-28 -top-80 bg-red-400 opacity-30 w-96 h-96 -z-10">
+            </div>
+            <div class="circle bg-gradient-to-r from-red-500 rounded-full to-red-400 absolute -left-64 -md:left-1/4 md:-bottom-48 -bottom-64 -z-10"></div>
+         </div>
+      </div>
+      
+      <!-- SECTI9N 2 -->
+      <section class="section-two-container mt-28 overflow-hidden">
+         <h1 class="text-center font-bold text-3xl md:text-4xl text-gray-700 mb-4 md:mb-4">Designed for the future</h1>
+         <div class="body-container md:h-96 relative flex md:flex-row flex-col md:justify-center justify-center items-center md:mt-10">
+            <img src="img/illustration-editor-mobile.svg" alt="" class="editor-mobile mt-12 md:hidden">
+            <div class="content-container md:text-left text-center md: flex flex-col justify-center md:absolute left-10 mt-20 md:w-1/2 px-12 md:p-16">
+               <h1 class="md:text-xl text-3xl font-bold text-gray-700 mb-2">Introducing an extensible editor</h1>
+               <p class="md:leading-tight leading-loose mb-10 text-gray-500 text:md md:text-sm">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+               <h1 class="text-3xl md:text-xl font-bold text-gray-700 mb-4">Robust content management </h1>
+               <p class="md:leading-tight leading-loose text-md md:text-sm text-gray-500">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control. </p>
+            </div>
+            <img src="img/illustration-editor-desktop.svg" alt="" class="editor-desktop md:block hidden absolute mt-16 -right-48 mr-6 ml-10">
+         </div>
+      </section>
+      
+      <!-- SECTION 3 --> 
+      <div class="section-three-container relative mt-64 md:mt-28">
+         <img src="img/illustration-phones.svg" alt="mobile" class="absolute -top-44 md:-top-10 md:left-28 md:h-96 z-30"> 
+         <section class="section-three md:h-72 relative bg-gradient-to-r from-gray-800 to-gray-700 mt-32 overflow-hidden">
+            <img src="img/bg-pattern-circles.svg" alt="" class="pattern-circles animate-pulse absolute md:-mt-40 -top-28 md:-top-96 md:-left-48 z-10">
+            <div class="content md:text-left text-center relative z-30 md:mt-0 mt-56 space-y-6 md:w-1/2 md:absolute right-0 top-20 text-white px-10 pb-56">
+               <h1 class="md:text-2xl text-3xl font-bold ">State of the Art Infrastructure</h1>
+               <p class="md:text-sm text-md">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+            </div>
+         </section>
+      </div>
+      
+      <!-- SECTION  4--> 
+      <section class="md:mt-32 mt-20 overflow-hidden">
+         <div class="body-container md:h-96 relative flex flex-col md:flex-row md:justify-between justify-center items-center md:my-20">
+            <img src="img/illustration-laptop-desktop.svg" alt="" class="laptop-desktop hidden md:block md:w-full md:absolute md:-left-48 -ml-10">
+            <img src="img/illustration-laptop-mobile.svg" alt="" class="laptop-mobile md:hidden"> 
+            <div class="content-container md:absolute right-10 md:w-1/2 p-12">
+               <h1 class="md:text-xl text-3xl font-bold text-center md:text-left text-gray-700 mb-6">Free, open, simple</h1>
+               <p class="mb-8  text-center md:text-left text-gray-500 md:text-sm text-md md:leading-tight leading-loose">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn. </p>
+               <h1 class="md:text-xl text-center md:text-left text-3xl font-bold text-gray-700 mb-6">Powerful tooling</h1>
+               <p class="md:text-sm text-center md:text-left text-md text-gray-500 leading-loose md:leading-tight" >Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites. </p>
+            </div>
+         </div>
+      </section>
+      
+      <!-- FOOTER --> 
+      <footer class="bg-gray-800 py-32 md:py-28 text-white text-center md:text-left md:mt-32 mt-10 flex flex-col md:flex-row justify-center items-center md:justify-around md:items-start">
+         <img src="img/logo.svg" alt="blogr-logo" class="mb-20 w-1/2 md:w-1/5">
+         <div class="menu-1 mb-10">
+            <heading class="text-2xl font-bold">Product</heading>
+            <ol class="mt-10 text-gray-500 space-y-4 md:space-y-2">
+               <li class="text-lg"><a href="#">Overview</a></li>
+               <li class="text-lg"><a href="#">Pricing</a></li>
+               <li class="text-lg"><a href="#">Marketplace</a></li>
+               <li class="text-lg"><a href="#">Features</a></li>
+               <li class="text-lg"><a href="#">Integration</a></li>
+            </ol>
+         </div>
+         <div class="menu-2 mb-10">
+            <heading class="text-2xl font-bold">Company</heading>
+            <ol class="mt-10 text-gray-500 space-y-4 md:space-y-2">
+               <li class="text-lg"><a href="#">About</a></li>
+               <li class="text-lg"><a href="#">Team</a></li>
+               <li class="text-lg"><a href="#">Blog</a></li>
+               <li class="text-lg"><a href="#">Careers</a></li>
+            </ol>
+         </div>
+         <div class="menu-3">
+            <heading class="text-2xl font-bold">Connect</heading>
+            <ol class="mt-10 text-gray-500 space-y-4">
+               <li class="text-lg"><a href="#">Contact</a></li>
+               <li class="text-lg"><a href="#">Newsletter</a></li>
+               <li class="text-lg"><a href="#">LinkedIn</a></li>
+            </ol>
+         </div>
+      </footer>
+      <script src="js/index.js"></script>
+   </body>
+</html>

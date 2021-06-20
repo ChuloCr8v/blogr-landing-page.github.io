@@ -1,0 +1,226 @@
+.section-one-container {
+  border-radius: 0 0 0 80px;
+}
+
+.rounded-angle {
+  border-radius: 80px;
+  transform: rotate(20deg);
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+}
+
+.editor-desktop {
+ width: 600px;
+ height: 550px;
+}
+
+.laptop-desktop {
+ width: 700px;
+ height: 550px;
+}
+
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-three {
+  border-radius: 0 90px 0 90px;
+}
+
+.pattern-circles {
+  height: 800px;
+  width: 800px;
+}
+
+footer {
+  border-radius: 0 80px 0 0px;
+}
+
+.mobile-menu-active {
+  transition: all 0.4s;
+  transform: translateY(-10%) translateX(10%);
+  opacity: 0;
+  z-index: 10;
+}
+
+.body.menu-active .hamburger-icon {
+  display: none;
+} 
+
+.body.menu-active .icon-close {
+  display: block;
+} 
+
+.body.menu-active .mobile-menu-active {
+  opacity: 1;
+  z-index: 1000;
+  transform: translateY(10%) translateX(10%);
+}
+
+.product-sub-menu {
+  box-shadow: 5px 10px 15px 15px rgba(0,0,0,0.163);
+  width: 180px;
+  transform: translateY(-5%) translateX(-35%);
+  transition: all 0.2s ease-in-out; 
+  opacity: 0;
+} 
+
+.body.product-menu-active .product-sub-menu {
+  transform: translateX(-35%) translateY(10%);
+  opacity: 1;
+}
+
+.product-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.body.product-menu-active .product-icon {
+  transform: rotate(-180deg);
+}
+
+.company-sub-menu {
+  box-shadow: 5px 10px 15px 15px rgba(0,0,0,0.163);
+  width: 180px;
+  transform: translateY(-5%) translateX(-22%);
+  transition: all 0.2s ease-in-out; 
+  opacity: 0;
+} 
+
+.body.company-menu-active .company-sub-menu {
+  transform: translateX(-22%) translateY(10%);
+  opacity: 1;
+}
+
+.company-icon {
+  transition: all 0.3s ease-in-out ; 
+}
+
+.body.company-menu-active .company-icon {
+  transform: rotate(-180deg);
+  transition: all 0.3s ease-in-out ;
+} 
+
+.connect-sub-menu {
+  box-shadow: 5px 10px 15px 15px rgba(0,0,0,0.163);
+  width: 160px;
+  transform: translateY(-5%) translateX(-20%);
+  transition: all 0.2s ease-in-out; 
+  opacity: 0;
+}
+
+.body.connect-menu-active .connect-sub-menu {
+  transform: translateX(-20%) translateY(10%);
+  opacity: 1;
+  
+}
+
+.connect-icon {
+  transition: all 0.3s ease-in-out ; 
+}
+
+.body.connect-menu-active .connect-icon {
+  transform: rotate(-180deg);
+  transition: all 0.3s ease-in-out ;
+}
+
+.product-menu-mobile {
+  z-index: 20;
+}
+
+.product-sub-menu-mobile {
+  opacity: 0;
+  transform: translateY(10%);
+  position: absolute;
+  z-index: 0;
+  transition: all 0.5s ease-in-out ;
+}
+
+
+.body.product-menu-mobile-active .product-sub-menu-mobile {
+  transform: translateY(24%);
+  margin-bottom: 250px;  
+  transition: all 0.3s ease-in-out ;
+  opacity: 1;
+  z-index: 50;
+}
+
+.body.product-menu-mobile-active .product-menu-mobile {
+  transition: all 0.3s ease-in-out ;
+  margin-bottom: 230px;  
+}
+
+.product-arrow-icon-mobile {
+  transition: all 0.3s ease-in-out;
+}
+
+.body.product-menu-mobile-active .product-arrow-icon-mobile {
+  transform: rotate(180deg);
+}
+
+.company-arrow-icon-mobile {
+  transition: all 0.3s ease-in-out ;
+}
+
+.body.company-menu-mobile-active .company-arrow-icon-mobile {
+  transform: rotate(180deg);
+}
+
+.company-mobile-menu {
+  z-index: 20;
+}
+
+.body.company-menu-mobile-active .company-mobile-menu {
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 200px ;
+}
+
+.company-sub-menu-mobile {
+  position: absolute;
+  z-index: 0;
+  top: 90px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.body.company-menu-mobile-active .company-sub-menu-mobile {
+  transform: translateY(30%);
+  opacity: 1;
+  z-index: 50;
+  
+}
+
+.connect-menu-mobile {
+  transition: all 0.3s ease-in-out;
+  z-index: 50;
+}
+
+.body.connect-menu-mobile-active .connect-menu-mobile {
+  margin-bottom: 200px;
+}
+
+.connect-arrow-icon-mobile {
+  transition: all 0.3s ease-in-out ;
+}
+
+.body.connect-menu-mobile-active .connect-arrow-icon-mobile {
+  transform: rotate(180deg);
+}
+
+.connect-sub-menu-mobile {
+  opacity: 0;
+  position: absolute;
+  top: 175px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.body.connect-menu-mobile-active .connect-sub-menu-mobile{
+  transform: translateY(20%);
+  opacity: 1;
+  z-index: 50;
+}
