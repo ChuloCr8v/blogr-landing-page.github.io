@@ -8,8 +8,8 @@
 }
 
 .circle {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 
 .editor-desktop {
@@ -32,7 +32,7 @@ body {
   border-radius: 0 90px 0 90px;
 }
 
-.pattern-circles {
+pattern-circles {
   height: 800px;
   width: 800px;
 }
