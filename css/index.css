@@ -8,8 +8,8 @@
 }
 
 .circle {
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
 }
 
 .editor-desktop {
@@ -30,11 +30,6 @@ body {
 
 .section-three {
   border-radius: 0 90px 0 90px;
-}
-
-pattern-circles {
-  height: 800px;
-  width: 800px;
 }
 
 footer {
@@ -160,6 +155,15 @@ footer {
 
 .body.product-menu-mobile-active .product-arrow-icon-mobile {
   transform: rotate(180deg);
+}
+
+.product-arrow-icon-desktop {
+  transition: all 0.3s ease-in-out;
+}
+
+.body.product-menu-active .product-arrow-icon-desktop {
+  transform: rotate(-180deg);
+
 }
 
 .company-arrow-icon-mobile {
